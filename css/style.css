@@ -1,0 +1,108 @@
+
+:root {
+    --cor-primaria:   #334b25;
+    --cor-secundaria: #7d7e7d;
+    --cor-destaque:   #ffffff;
+    --fonte: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --raio: 10px;
+    --sombra: 0 4px 12px rgba(0,0,0,.08);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background: var(--cor-primaria);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 40px;
+    height: 64px;
+}
+
+nav {
+    display: flex;
+    gap: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+    font-family: var(--fonte);
+}
+
+nav a:hover {
+    color: var(--cor-destaque);
+    transform:  translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,.12);
+    font-size: 1.2rem;
+}
+
+.main-galery { padding-top: 90px; }
+
+.main-galery h2 { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+figcaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.galery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 100px;
+    margin-top: 16px;
+    margin-bottom: 80px;
+}
+
+.galery figure {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #7c5e52;
+    width: 60%; 
+    max-width: 150px;
+    margin: 0 auto;          
+    aspect-ratio: 1 / 1;    
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.galery figure img {
+    width:      100%;
+    height:     100%;
+    object-fit: cover;
+    display:    block;
+    transition: transform .3s, opacity .3s;
+  }
+
+.galery figure:hover img {
+    transform: scale(1.06);
+    opacity:   0.82;
+  }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-destaque);
+}
+
+
+
