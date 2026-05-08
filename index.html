@@ -10,7 +10,9 @@
 
     <title>Hello, world!</title>
   </head>
+<!--FALTA GERAR AS IMAGENS ADICIONAR O "ALT", "FIGCAPTION" , ALGUMAS ANCORAS , DESCOBRIR COMO ARRUMAR AS CATEGORIAS , CRIAR UMA AREA DE CONTATO E ADICIONAR ALGUNS ICONES  -->
   <body>
+<!--Cabecalho + Nav-->    
     <header>
         <section>
             <h1>AURORA</h1>
@@ -18,11 +20,14 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="contact.html">Contact</a>
-            <a href="about.html">About</a>
+            <a href="#about-us">About</a>
             <a href="#galery">Colletions</a>
         </nav>
     </header>
+
     <main>
+
+<!--Carrosel = Hero-->      
         <section class="carousel">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -46,31 +51,239 @@
                 </button>
               </div>
         </section>
-        <section class="main-galery">
-            <h2>Collections</h2>
-            <div id="galery" class="galery">
+<!--Categorias (Camisas + bolsas + botas + outros)-->
+        <section id="galery" class="main-galery">
+            <h2>Categories</h2>
+            <div class="galery">
                 <figure class="galery-content" >
-                    <a href="index.html"><img src="/img/hero-mulher.png" alt="" width="50" height="50" loading="lazy">
+                    <a href="#main-t-shirts"><img src="/img/T-shirt.png" alt="White t-shirt" width="50" height="50" loading="lazy">
                     <figcaption></figcaption></a>
                 </figure>
                 <figure class="galery-content">
-                    <a href=""><img src="/img/hero-mulher.png" alt="" width="50" height="50" loading="lazy"></a>
+                    <a href="#main-bags "><img src="/img/Bags.png" alt="Leather Bag" width="50" height="50" loading="lazy"></a>
                     <figcaption></figcaption>
                 </figure>
                 <figure class="galery-content">
-                    <a href=""><img src="/img/hero-mulher.png" alt="" width="50" height="50" loading="lazy"></a>
+                    <a href="#main-boots"><img src="/img/Boots.png" alt="Leather Boot" width="50" height="50" loading="lazy"></a>
                     <figcaption></figcaption>
                 </figure>
                 <figure class="galery-content">
-                    <a href=""><img src="/img/hero-mulher.png" alt="" width="50" height="50" loading="lazy"></a>
+                    <a href="#main-others"><img src="/img/Scarf.png" alt="Green Scarf" width="50" height="50" loading="lazy"></a>
                     <figcaption></figcaption>
                 </figure>
             </div>
         </section>
-        <section>
-          
+<!--Principais OFERTAS!!-->
+        <section id="main-offers" class="main-offers">
+          <h2>Main Offers</h2>
+          <div>
+            <figure class="offers">
+              <img src="" alt="" width="" height=" " loading="lazy">
+              <figcaption></figcaption>
+            </figure>
+            <figure class="fig-offers">
+              <img src="" alt="" width="" height=" " loading="lazy">
+              <figcaption></figcaption>
+            </figure>
+            <figure class="fig-offers">
+              <img src="" alt="" width="" height=" " loading="lazy">
+              <figcaption></figcaption>
+            </figure>
+          </div>
         </section>
+<!--Catalogo de Camisas-->
+        <section id="main-t-shirts" class="main-t-shirts">
+          <h2>T-shirts</h2>
+          <div class="t-shirt">
+            <figure class="t-shirts">
+                <img src="/img/T-shirt.png" alt="" width="250" height="280 " loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="t-shirts">
+                <img src="/img/T-shirt.png" alt="" width="250" height="280 " loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="t-shirts">
+                <img src="/img/T-shirt.png" alt="" width="250" height="280" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="t-shirts">
+                <img src="/img/T-shirt.png" alt="" width="250" height="280" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="t-shirts">
+                <img src="/img/T-shirt.png" alt="" width="250" height="280" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+            </div> 
+        </section>
+<!--Catalogo de Bolsas-->
+                <section id="main-bags" class="main-bags">
+          <h2>bags</h2>
+          <div class="bag">
+            <figure class="bags">
+                <img src="img/Bags.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="bags">
+                <img src="img/Bags.png" alt="" width="250" height=" 250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="bags">
+                <img src="img/Bags.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="bags">
+                <img src="img/Bags.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="bags">
+                <img src="img/Bags.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+            </div>
+        </section>
+<!--Catalogo de Botas-->
+                <section id="main-boots" class="main-boots">
+          <h2>Boots</h2>
+          <div class="boot">
+            <figure class="boots">
+                <img src="img/Boots.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="boots">
+                <img src="img/Boots.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="boots">
+                <img src="img/Boots.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="boots">
+                <img src="img/Boots.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="boots">
+                <img src="img/Boots.png " alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                   <p> White Cotton T-shirt</p>
+                  <h3><strong>U$ 150,00</strong></h3>
+                  <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+            </div>
+        </section>
+<!--Catalogos dos Outros-->
+                <section id="main-others" class="main-others">
+          <h2>Others</h2>
+          <div class="other">
+            <figure class="others">
+                <img src="img/Scarf.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                    <h3><strong>U$ 150,00</strong></h3>
+                    <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="others">
+                <img src="img/Scarf.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                    <h3><strong>U$ 150,00</strong></h3>
+                    <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="others">
+                <img src="img/Scarf.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                    <h3><strong>U$ 150,00</strong></h3>
+                    <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="others">
+                <img src="img/Scarf.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                    <h3><strong>U$ 150,00</strong></h3>
+                    <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+              <figure class="others">
+                <img src="img/Scarf.png" alt="" width="250" height="250" loading="lazy">
+                <figcaption>
+                  <p> White Cotton T-shirt</p>
+                    <h3><strong>U$ 150,00</strong></h3>
+                    <h4><strong>5X U$30,00</strong></h4>
+                </figcaption>
+              </figure>
+             </div> 
+        </section>
+<!--Um sobre nos-->
+        <section id="about-us" class="about-us">
+          <h2>About Us</h2>
+          <p>AURORA APPAREL, established in 2023, was born at the intersection of classic sophistication and urban functionality, created specifically for those who navigate the fast pace of the city with confidence without sacrificing a timeless and refined style. We deeply believe that clothing should be a natural extension of your journey, whether on a morning walk through cobblestone streets or at a strategic meeting in the heart of the metropolis, always offering the perfect balance between durability and elegance. Our product curation reflects an unwavering commitment to excellence in every detail, featuring utilitarian design with waxed canvas jackets and robust leather boots designed to stand the test of time, alongside a premium aesthetic in tote bags and accessories that combine natural textures with luxury finishes. At AURORA, every detail—from the cut of the shirts to our engraved logo—is meticulously thought out to convey the tradition of a brand that was born classic, inviting you to dress for movement and for longevity.</p>
+
+        </section>
+
     </main>
+
     <footer>
         <h3>&copy; Designed by Arthur Neumann</h3>
         <a href=""></a>
