@@ -61,24 +61,21 @@ figcaption {
 }
 
 .galery {
-    display: grid;
+    display: flex;
+    justify-content: space-evenly;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 100px;
     margin-top: 16px;
     margin-bottom: 80px;
 }
 
 .galery figure {
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 5px;
     border: 1px solid #7c5e52;
     width: 60%; 
-    max-width: 150px;
-    margin: 0 auto;          
+    max-width: 150px;          
     aspect-ratio: 1 / 1;    
-    display: flex;          
-    justify-content: center;
-    align-items: center;
+    display: flex;        
   }
 
 
